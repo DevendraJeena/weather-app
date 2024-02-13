@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    background-color: #222;
+}
+.outer-border{
+    height:93vh;
+    width: 80vh;
+    background : linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 3%;
+}
+.search-icon{
+    height: 60px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#btn{
+    height: 45px;
+    width: 75%;
+    border-radius:40px;
+    border: none;
+    background-color:blanchedalmond;
+    color: #0000009a;
+    font-size:1.2rem;
+    outline: none;
+    margin-left: 30px;
+    cursor: pointer;
+   padding-left: 20px;
+    
+    
+}
+#glass{
+    height: 45px;
+    width: 45px;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.middle{
+    height:350px ;
+    width:100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+#temperature{
+    height: 80px;
+    width: 100%;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#city{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.bottom{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+    gap: 2rem;
+}
+.humidity{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    gap: 5px;
+}
+.wind-speed{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    gap: 5px;
+}
+.icon-humid{
+    font-size: 2.5rem;
+}
+.icon-wind{
+    font-size: 2.5rem;
+}
+
